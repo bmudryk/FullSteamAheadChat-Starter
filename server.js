@@ -8,6 +8,7 @@ var server = require('http').Server(app);
 //  Add step 3 right below this line
 
 
+
 app.get('/', function (req, res) {
     res.sendFile(__dirname + '/index.html');
 });
@@ -15,7 +16,9 @@ app.get('/', function (req, res) {
 //  Add step 2 right below this line
 
 
+
 //  Add step 4 right below this line
+
 
 server.listen(port, () => {
     console.log('Server is running on port:  ', server.address().port);
