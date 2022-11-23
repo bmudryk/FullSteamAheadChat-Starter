@@ -9,7 +9,7 @@
   "dependencies": {
     "express": "4.16.4",
     "body-parser": "1.18.3",
-    "socket.io": "1.7.0"
+    "socket.io": "4.5.4"
   },
   "noAnalyze": true,
   "license": "Apache",
